@@ -1,8 +1,4 @@
 DEFINE DATA LOCAL
-/* >Natural Source Header 000000
-/* :Mode S
-/* :CP
-/* <Natural Source Header
 1 EMPL-VISTA VIEW OF EMPLEADOS
     2 EMPLEADO-ID                  (A08) /* DESCRIPTOR
     2 NOMBRE-COMPLETO
