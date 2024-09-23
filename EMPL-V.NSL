@@ -1,0 +1,40 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+1 EMPL-VISTA VIEW OF EMPLEADOS
+    2 EMPLEADO-ID                  (A08) /* DESCRIPTOR
+    2 NOMBRE-COMPLETO
+        3 NOMBRE                   (A20)
+        3 APELLIDO                 (A20) /* DESCRIPTOR
+        3 NOMBRE-SECUNDARIO        (A20)
+    2 ESTADO-CIVIL                 (A01)
+    2 SEXO                         (A01)
+    2 DOMICILIO-COMPLETO
+        3 DOMICILIO(1:1)
+        3 CIUDAD                   (A20) /* DESCRIPTOR
+        3 CODIGO-POSTAL            (A10)
+        3 INICIAL-PAIS             (A03)
+    2 TELEFONO
+        3 CODIGO-AREA              (A06)
+        3 NUMERO-TELEFONO          (A15)
+    2 DEPARTAMENTO                 (A06) /* DESCRIPTOR
+    2 PROFESION                    (A25) /* DESCRIPTOR
+    2 INGRESO-ANUAL
+        3 CODIGO-MONEDA(1:1)
+        3 SALARIO-ANUAL(1:1)
+        3 BONUS(1:1, 1:1)
+    2 DIAS-VACACIONES
+        3 DIAS-DISPONIBLES         (N02)
+        3 DIAS-USADOS              (N02)
+    2 LICENCIA-SOLICITADA
+        3 FECHA-INICIO(1:1)
+        3 FECHA-FIN(1:1)
+    2 IDIOMA(1:1)                       /* DESCRIPTOR
+
+    2 SP-DIAS-VACACIONES                /* SÚPER DESCRIPTOR...: DIAS-DISPONIBLES + DIAS-USADOS
+    2 SB-DEPARTAMENTO                   /* SUBDESCRIPTOR......: DEPARTAMENTO
+    2 SP-DEPT-EMPL                      /* SÚPER DESCRIPTOR...: DEPARTAMENTO + APELLIDO
+    2 SP-SALARIO(1:1)                   /* SÚPER DESCRIPTOR...: CODIGO-MONEDA + SALARIO-ANUAL
+END-DEFINE

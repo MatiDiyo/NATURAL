@@ -1,0 +1,22 @@
+DB: 012 FILE: 012  - VEHICULOS                        DEFAULT SEQUENCE:
+TYPE: ADABAS
+
+T L DB Name                              F Leng  S D Remark
+- - -- --------------------------------  - ----  - - --------------------
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      <Natural Source Header
+  1 AA PATENTE                           A   15  N D
+  1 AC EMPLEADO-ID                       A    8  N D NC
+G 1 CD VEHICULO
+  2 AD MARCA                             A   20  N D
+  2 AE MODELO                            A   20  N
+  2 AF COLOR                             A   10  N D
+  1 AG ANIO                              N  4.0  N
+  1 AJ FECHA-ALTA-VEHICULO               N  8.0  N
+  1 AO SP-VEHICULO                       A   24  N S
+*      ANIO
+*      MARCA
+******DDM OUTPUT TERMINATED******

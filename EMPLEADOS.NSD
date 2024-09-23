@@ -1,0 +1,62 @@
+DB: 012 FILE: 011  - EMPLEADOS                        DEFAULT SEQUENCE:
+TYPE: ADABAS
+
+T L DB Name                              F Leng  S D Remark
+- - -- --------------------------------  - ----  - - --------------------
+*      >Natural Source Header 000000
+*      :CP
+*      
+*      
+*      <Natural Source Header
+  1 AA EMPLEADO-ID                       A    8    D
+*      PNNNNNNN
+*      P=PAIS
+*      P=1 = ALEMANIA
+*      P=2 = ESTADOS UNIDOS
+*      P=3 = REINO UNIDO
+*      P=4 = DINAMARCA
+*      P=5 = FRANCIA
+*      P=6 = ESPAÑA
+G 1 AB NOMBRE-COMPLETO
+  2 AC NOMBRE                            A   20  N
+  2 AE APELLIDO                          A   20    D
+  2 AD NOMBRE-SECUNDARIO                 A   20  N
+  1 AF ESTADO-CIVIL                      A    1  F
+*      M=MARRIED  (CASADO/A)
+*      S=SINGLE   (SOLTERO/A)
+*      D=DIVORCED (DIVORCIADO/A)
+*      W=WIDOWED  (VIUDO/A)
+  1 AG SEXO                              A    1  F
+G 1 A1 DOMICILIO-COMPLETO
+M 2 AI DOMICILIO                         A   20  N
+  2 AJ CIUDAD                            A   20  N D
+  2 AK CODIGO-POSTAL                     A   10  N
+  2 AL INICIAL-PAIS                      A    3  N
+G 1 A2 TELEFONO
+  2 AN CODIGO-AREA                       A    6  N
+  2 AM NUMERO-TELEFONO                   A   15  N
+  1 AO DEPARTAMENTO                      A    6    D
+  1 AP PROFESION                         A   25  N D
+P 1 AQ INGRESO-ANUAL
+  2 AR CODIGO-MONEDA                     A    3  N
+  2 AS SALARIO-ANUAL                     P  9.0  N
+M 2 AT BONUS                             P  9.0  N
+G 1 A3 DIAS-VACACIONES
+  2 AU DIAS-DISPONIBLES                  N  2.0
+  2 AV DIAS-USADOS                       N  2.0  N
+P 1 AW LICENCIA-SOLICITADA
+  2 AX FECHA-INICIO                      N  8.0  N
+  2 AY FECHA-FIN                         N  8.0  N
+M 1 AZ IDIOMA                            A    3  N D
+  1 H1 SP-DIAS-VACACIONES                B    4  N S
+*      DIAS-DISPONIBLES
+*      DIAS-USADOS
+  1 S1 SB-DEPARTAMENTO                   A    4    U
+*      DEPARTAMENTO
+  1 S2 SP-DEPT-EMPL                      A   26    S
+*      DEPARTAMENTO
+*      APELLIDO
+P 1 S3 SP-SALARIO                        A   12    S
+*      CODIGO-MONEDA
+*      SALARIO-ANUAL
+******DDM OUTPUT TERMINATED******

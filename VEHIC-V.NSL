@@ -1,0 +1,16 @@
+DEFINE DATA LOCAL
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+1 VEHIC-VISTA VIEW OF VEHICULOS
+    2 PATENTE                  (A15) /* DESCRIPTOR
+    2 EMPLEADO-ID              (A08) /* DESCRIPTOR
+    2 VEHICULO
+        3 MARCA                (A20) /* DESCRIPTOR
+        3 MODELO               (A20)
+        3 COLOR                (A10) /* DESCRIPTOR
+    2 ANIO                     (N04)
+    2 FECHA-ALTA-VEHICULO      (N08)
+    2 SP-VEHICULO                    /* SÚPER DESCRIPTOR: ANIO + MARCA
+END-DEFINE
