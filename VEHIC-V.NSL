@@ -1,8 +1,4 @@
 DEFINE DATA LOCAL
-/* >Natural Source Header 000000
-/* :Mode S
-/* :CP
-/* <Natural Source Header
 1 VEHIC-VISTA VIEW OF VEHICULOS
     2 PATENTE                  (A15) /* DESCRIPTOR
     2 EMPLEADO-ID              (A08) /* DESCRIPTOR
