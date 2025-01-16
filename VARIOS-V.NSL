@@ -1,10 +1,17 @@
 DEFINE DATA LOCAL
-1 MISC-VISTA VIEW OF VARIOS
-    2 EMPLEADO-ID                    (A08) /* DESCRIPTOR
-    2 EMPLEADO-TIPO                  (A01)                                    
+/* >Natural Source Header 000000
+/* :Mode S
+/* :CP
+/* <Natural Source Header
+1 VARIOS-VISTA VIEW OF VARIOS
+    2 ID-EMPLEADO                    (A08) /* DESCRIPTOR
+    2 TIPO-EMPLEADO                  (A01)                                    
     2 FICHA-TECNICA                        
         3 PROFESION(1:1)               
         3 DEPARTAMENTO(1:1)                /* DESCRIPTOR
-        3 TITULO-ACADEMICO(1:1, 1:1)          
-    2 SP-EMPLEADO                    (A09) /* SUPER DESCRIPTOR: EMPLEADO-TIPO + EMPLEADO-ID
+        3 TITULO-ACADEMICO(1:1, 1:1)
+*                         
+    2 SP-EMPLEADO                    (A09) /* SUPER DESCRIPTOR
+    /* TIPO-EMPLEADO
+    /* ID-EMPLEADO
 END-DEFINE

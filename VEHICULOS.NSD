@@ -9,7 +9,7 @@ T L DB Name                              F Leng  S D Remark
 *      
 *      <Natural Source Header
   1 AA PATENTE                           A   15  N D
-  1 AC EMPLEADO-ID                       A    8  N D NC
+  1 AC ID-EMPLEADO                       A    8  N D NC
 G 1 CD VEHICULO
   2 AD MARCA                             A   20  N D
   2 AE MODELO                            A   20  N

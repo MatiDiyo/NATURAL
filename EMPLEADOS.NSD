@@ -8,7 +8,7 @@ T L DB Name                              F Leng  S D Remark
 *      
 *      
 *      <Natural Source Header
-  1 AA EMPLEADO-ID                       A    8    D
+  1 AA ID-EMPLEADO                       A    8    D
 *      PNNNNNNN
 *      P=PAIS
 *      P=1 = ALEMANIA
@@ -27,6 +27,8 @@ G 1 AB NOMBRE-COMPLETO
 *      D=DIVORCED (DIVORCIADO/A)
 *      W=WIDOWED  (VIUDO/A)
   1 AG SEXO                              A    1  F
+*      M=MALE     (MASCULINO)
+*      F=FEMALE   (FEMENINO)
 G 1 A1 DOMICILIO-COMPLETO
 M 2 AI DOMICILIO                         A   20  N
   2 AJ CIUDAD                            A   20  N D
@@ -51,7 +53,7 @@ M 1 AZ IDIOMA                            A    3  N D
   1 H1 SP-DIAS-VACACIONES                B    4  N S
 *      DIAS-DISPONIBLES
 *      DIAS-USADOS
-  1 S1 SB-DEPARTAMENTO                   A    4    U
+  1 S1 SB-DEPARTAMENTO                   A    4    S
 *      DEPARTAMENTO
   1 S2 SP-DEPT-EMPL                      A   26    S
 *      DEPARTAMENTO

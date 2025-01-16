@@ -8,13 +8,13 @@ T L DB Name                              F Leng  S D Remark
 *      
 *      
 *      <Natural Source Header
-  1 CA EMPLEADO-ID                       A    8  N D
-  1 CB EMPLEADO-TIPO                     A    1  N
+  1 CA ID-EMPLEADO                       A    8  N D
+  1 CB TIPO-EMPLEADO                     A    1  N
 P 1 CG FICHA-TECNICA
   2 CI PROFESION                         A   25  N
   2 CJ DEPARTAMENTO                      A    6  N D
 M 2 CM TITULO-ACADEMICO                  A   20  N
   1 CN SP-EMPLEADO                       A    9  N S
-*      EMPLEADO-TIPO
-*      EMPLEADO-ID
+*      TIPO-EMPLEADO
+*      ID-EMPLEADO
 ******DDM OUTPUT TERMINATED******
