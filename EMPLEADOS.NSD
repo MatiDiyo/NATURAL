@@ -3,11 +3,6 @@ TYPE: ADABAS
 
 T L DB Name                              F Leng  S D Remark
 - - -- --------------------------------  - ----  - - --------------------
-*      >Natural Source Header 000000
-*      :CP
-*      
-*      
-*      <Natural Source Header
   1 AA ID-EMPLEADO                       A    8    D
 *      PNNNNNNN
 *      P=PAIS

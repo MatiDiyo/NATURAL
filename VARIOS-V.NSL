@@ -1,8 +1,4 @@
 DEFINE DATA LOCAL
-/* >Natural Source Header 000000
-/* :Mode S
-/* :CP
-/* <Natural Source Header
 1 VARIOS-VISTA VIEW OF VARIOS
     2 ID-EMPLEADO                    (A08) /* DESCRIPTOR
     2 TIPO-EMPLEADO                  (A01)                                    
